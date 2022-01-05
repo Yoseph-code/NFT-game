@@ -1,0 +1,41 @@
+Arguments: 
+  /home/user/.config/nvm/versions/node/v17.0.1/bin/node /home/user/.config/nvm/versions/node/v17.0.1/bin/yarn add -D chai chai-as-promise
+
+PATH: 
+  /home/user/.config/nvm/versions/node/v17.0.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/home/user/Android/Sdk/emulator:/home/user/Android/Sdk/tools:/home/user/Android/Sdk/tools/bin:/home/user/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.0.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/chai-as-promise: Not found
+      at Request.params.callback [as _callback] (/home/user/.config/nvm/versions/node/v17.0.1/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/user/.config/nvm/versions/node/v17.0.1/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/home/user/.config/nvm/versions/node/v17.0.1/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/home/user/.config/nvm/versions/node/v17.0.1/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1340:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "sol-study",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
